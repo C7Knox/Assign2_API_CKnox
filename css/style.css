@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    background: #FFC0CB;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration:underline;
+    text-decoration-color: whitesmoke;
+}
+
+#new {
+    display:flex;
+}
+
+
+.con {
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    align-items: center; tried to vertically center but it didn't work*/
+}
+
+.joke div {
+    padding:20px;
+    background: #FFCBD3;
+    box-shadow: 4px 4px 25px whitesmoke;
+    text-align: center;
+    border-style: double;
+    border-color: whitesmoke;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    background-color: #FFC0CB; 
+    border: 3px solid #87ceeb; /* sky blue */
+    border-radius: 40%;
+    color: whitesmoke;
+    padding: 15px 32px;
+    margin: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    font-style: oblique;
+}
+
